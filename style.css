@@ -1,1 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  }
+
+html {
+scroll-behavior: smooth;
+}
+
+body {
+font-family: Arial, sans-serif;
+background-color: #111111;
+color: #eeeeee;
+line-height: 1.6;
+}
+
+header {
+min-height: 70vh;
+display: flex;
+flex-direction: column;
+justify-content: center;
+padding: 80px 10%;
+}
+
+header h1 {
+font-size: 64px;
+margin-bottom: 10px;
+}
+
+header p {
+font-size: 24px;
+color: #aaaaaa;
+}
+
+main {
+width: 80%;
+max-width: 1100px;
+margin: 0 auto;
+}
+
+section {
+padding: 80px 0;
+border-top: 1px solid #333333;
+}
+
+h2 {
+font-size: 36px;
+margin-bottom: 30px;
+}
+
+h3 {
+font-size: 24px;
+margin-bottom: 8px;
+}
+
+p {
+color: #bbbbbb;
+}
+
+#projects article {
+padding: 25px 0;
+border-bottom: 1px solid #333333;
+}
+
+#projects article p {
+color: #888888;
+}
+
+#skills p {
+font-size: 18px;
+}
+
+#contact p {
+font-size: 18px;
+}
 
