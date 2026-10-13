@@ -1,57 +1,93 @@
+@font-face {
+    font-family: 'RetroGaming';
+    src: url('fonts/Retro Gaming.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'PressStart2P';
+    src: url('fonts/PressStart2P-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   }
 
-html {
-scroll-behavior: smooth;
+html 
+{
+  scroll-behavior: smooth;
 }
 
-body {
-font-family: Arial, sans-serif;
-background-color: #111111;
-color: #eeeeee;
-line-height: 1.6;
+body 
+{
+  font-family: RetroGaming, sans-serif;
+  background-color: #111111;
+  color: #eeeeee;
+  line-height: 1.6;
 }
 
-header {
-min-height: 70vh;
-display: flex;
-flex-direction: column;
-justify-content: center;
-padding: 80px 10%;
+header 
+{
+  font-family: PressStart2P, sans-serif;
+  font-size: 240px;
+  width: 80%;
+  max-width: 1100px;
+  margin: 0 auto;
+
+  min-height: 20vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 80px 0;
 }
 
-header h1 {
-font-size: 64px;
-margin-bottom: 10px;
+/* Nombre en grande */
+header h1 
+{
+  font-size: clamp(48px, 6vw, 76px);
+  margin-bottom: 10px;
+  line-height: 1.1;
 }
 
-header p {
-font-size: 24px;
-color: #aaaaaa;
+header p 
+{
+  font-size: 24px;
+  color: #aaaaaa;
 }
 
-main {
-width: 80%;
-max-width: 1100px;
-margin: 0 auto;
+main 
+{
+  width: 80%;
+  max-width: 1100px;
+  margin: 0 auto;
 }
 
 section {
-padding: 80px 0;
+padding: 40px 0;
 border-top: 1px solid #333333;
 }
 
-h2 {
-font-size: 36px;
-margin-bottom: 30px;
+/* Títulos */
+h2 
+{
+  font-family: PressStart2P, sans-serif;
+  font-size: 36px;
+  margin-bottom: 30px;
 }
 
-h3 {
-font-size: 24px;
-margin-bottom: 8px;
+/* Links*/
+h3 
+{
+  font-family: PressStart2P, sans-serif;
+  font-size: 20px;
+  margin-bottom: 8px;
 }
 
 p {
@@ -60,18 +96,48 @@ color: #bbbbbb;
 
 #projects article {
 padding: 25px 0;
-border-bottom: 1px solid #333333;
 }
 
 #projects article p {
 color: #888888;
 }
 
-#skills p {
-font-size: 18px;
-}
-
 #contact p {
 font-size: 18px;
 }
 
+#projects article img 
+{
+    width: 50%;
+    max-width: 700px;
+    height: auto;
+    display: block;
+    margin-top: 20px;
+    border-radius: 8px;
+}
+
+/* Linkedin link*/
+h4 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 25px;
+}
+
+/* Descripción de proyectos */
+h5 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: large;
+}
+
+/* Email */
+h6 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  color: #888888;
+}
+
+/* Subtítulo de about me*/
+h7 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: large;
+  color: #c7c7c7;
+}
